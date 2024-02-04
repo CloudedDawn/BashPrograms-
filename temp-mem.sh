@@ -2,6 +2,7 @@
 echo "This program makes a temporary ram disk of 3gb"
 echo "The disk is stored in your ram"
 echo "To prevent data loss back up your data"
+echo "Open this file in root terminal not sudo"
 echo "Enter the current user"
 read a
 sudo umount /home/${a}/.cache
