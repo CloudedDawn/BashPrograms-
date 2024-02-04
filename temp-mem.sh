@@ -1,4 +1,7 @@
 #!/bin/sh
+echo "This program makes a temporary ram disk of 3gb"
+echo "The disk is stored in your ram"
+echo "To prevent data loss back up your data"
 sudo umount /home/${USER}/.cache
 sudo umount /home/${USER}/Desktop/temp
 rm -rf /home/${USER}/.cache
